@@ -16,7 +16,7 @@ const Contact = () => {
     })
 
     timeline.from(titleSplit.words, {
-      opacity: 0, yPercent: 100, ease: 'expo.out', stagger: 0.02
+      opacity: 0, yPercent: 100, ease: 'expo.out', stagger: 0.02,
     }).from('#contact h3, #contact p', {
       opacity: 0, yPercent: 100, ease: 'expo.out', stagger: 0.02
     }).to('#f-right-leaf', {
